@@ -168,8 +168,12 @@
   width: 126px;
   height: 44px;
   border-radius: 4px;
-  color: #fff;
+  color: #ffffff;
   background-color: #040521;
+  border: none;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .heading-three {
