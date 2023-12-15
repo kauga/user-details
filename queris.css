@@ -1,0 +1,101 @@
+@media screen and (max-width: 1300px) {
+    .image {
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* .image {
+        right: 11.5%;
+    } */
+
+    
+     .section-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .account-setting {
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    .image {
+        top: 62.5%;
+        right: 43.5%;
+        bottom: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .search-profilePicture {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s ease-in;
+      transform: translateX(100%);
+      z-index: 10;
+    }
+
+    .openMenu {
+        display: block;
+    }
+
+    .closedMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        height: 2.6rem;
+    }
+
+    .search-profilePicture.hidden {
+        left: -100%;
+    }
+
+    .search-input {
+        width: 30%;
+    }
+    .input-feald {
+        width: 90%;
+    }
+
+    .user-name {
+        text-align: center;
+    }
+    .profile-image {
+        height: 60px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .user-registration {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center;
+        gap: 2rem; */
+    }
+
+    .account-setting {
+        height: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .image {
+        top: 70%;
+        right: 37%;
+    }
+}

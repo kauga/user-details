@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-color: #040521;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./background-two.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  margin-right: 2rem;
+}
+
+.image-overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: #040521ef;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.container {
+  padding: 3rem 4.5rem;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+/* user-profile */
+
+.heading {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* search-profilePicture */
+.openMenu  {
+  width: 3rem;
+  display: none;
+  height: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
+.closedMenu {
+  width: 3rem;
+  display: none;
+  height: 2rem;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 2x;
+}
+
+.search-profilePicture {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+}
+.search-input {
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  width: 80%;
+  border: solid #fff 1px;
+  background-color: #040521;
+}
+
+.profile-image {
+  width: 60px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1.1rem;
+  width: 40%;
+}
+
+/* user infomation */
+
+.heading-two {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.paragraphy {
+  font-family: Poppins;
+  color: rgba(255, 255, 255, 0.9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.profile-button {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #040521;
+  margin-top: 1.3rem;
+  width: 137px;
+  height: 45px;
+  border: solid #fff 1px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+/* SECTION TWO */
+/* .section-two {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 2rem;
+} */
+
+.section-two {
+  display: flex;
+  gap: 3rem;
+}
+
+.account-setting {
+  /* width: 700px; */
+  width: 100%;
+  height: 446px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 84px 0px rgba(0, 0, 0, 0.12);
+}
+
+.header-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  background: #f0f0f0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.my-account {
+  color: #040521;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.setting-button {
+  width: 126px;
+  height: 44px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #040521;
+}
+
+.heading-three {
+  font-family: serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  color: rgba(4, 5, 33, 0.3);
+  margin-left: 28px;
+  margin-top: 1.5rem;
+  margin-bottom: 14px;
+}
+
+.user-registration {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 28px;
+  row-gap: 28px;
+  padding: 0 58px 42px 50px;
+}
+
+.labels {
+  color: rgba(4, 5, 33, 0.9);
+  font-family: sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: none;
+  margin-bottom: 16px;
+}
+
+.input-feald {
+  width: 260px;
+  height: 15px;
+  padding: 14px;
+  margin-top: 6px;
+  border-radius: 4px;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+/* ABOUT PROFILE */
+.about-profile {
+  width: 337px;
+  height: 416px;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 14px;
+  box-shadow: 0px 0px 84px 0px rgba(0, 0, 0, 0.12);
+}
+
+.icon-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  font-weight: 600;
+}
+
+/* .image {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 38%;
+  right: 18%;
+  bottom: 70%;
+  border-image: solid #b12af0f1 3px;
+  border: solid #b12af0f1 3px;
+  justify-content: center;
+  animation: spin 1.5s infinite linear;
+} */
+
+.image {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 38%;
+  right: 13%;
+  bottom: 70%;
+  border: double 3px transparent;
+  background-image: url(./marry--1.png),
+    linear-gradient(#b12af0, #ff0000, #001aff, #040521);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+}
+
+/* @keyframes spin {
+  100%{
+    transform: rotate(-360deg)
+  }
+   animation: spin 1.5s infinite linear;
+} */
+
+.user-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.items-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(4, 5, 33, 0.8);
+  line-height: normal;
+}
+
+.word {
+  font-family: poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(4, 5, 33, 0.4);
+  line-height: normal;
+}
+
+.profile-div {
+  margin: 2rem 0;
+}
+
+.heading-four {
+  font-family: poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(4, 5, 33, 0.8);
+  line-height: normal;
+}
+
+.paragraphy-two {
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(4, 5, 33, 0.4);
+  line-height: normal;
+}
+
+.fixing-heading {
+  margin: 1.2rem 0;
+}
+
+.Highlights-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.image-hightlight {
+  width: 45px;
+  height: 45px;
+  /* border: solid #040521 2px; */
+  border-radius: 50%;
+  border: double 3px transparent;
+  background-image: url(./marry--1.png),
+    linear-gradient(#b12af0, #ff0000, #001aff, #040521);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+}
+
+.image-month {
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  line-height: normal;
+  text-align: center;
+  margin-top: 1px;
+}
+
+/* .gradient {
+  margin: 20rem;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #833ab4;
+  border-radius: 10px;
+  border-image: linear-gradient(90deg, #e67e22, #040521, #833ab4, #fcc054);
+ border-image-slice: 1;
+ border: double 5px transparent;
+ background-origin: border-box;
+ background-clip: content-box, border-box;
+} */
+
+/* .gradient {
+  margin-top: 20rem;
+  height: 200px;
+  width: 200px;
+  border: 5px solid #833ab4;
+  border-radius: 50%;
+  border: double 5px transparent;
+  background-image: url(./marry--1.png), linear-gradient(#B12AF0, #FF0000, #001AFF, #040521);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+} */
