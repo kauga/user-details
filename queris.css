@@ -77,6 +77,10 @@
     .profile-image {
         height: 60px;
     }
+
+    .container {
+        padding: 0.2rem;
+    }
 }
 
 
@@ -97,5 +101,9 @@
     .image {
         top: 70%;
         right: 37%;
+    }
+
+    .input-feald {
+        width: 100%;
     }
 }
